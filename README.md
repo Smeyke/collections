@@ -7,6 +7,9 @@
 - [x] update icons
 - [ ] write text
 - [ ] fill in all the links
+- [ ] create people section w/ icon
+- [ ] update software icon
+- [ ] create random/misc section w/ icon
 
 ```
 
