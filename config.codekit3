@@ -85,6 +85,16 @@
 		"oAP": "\/fonts\/averta-regular-webfont.woff2",
 		"oF": 0
 		},
+	"\/img\/icons-flat-opt\/hardware.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons-flat-opt\/hardware.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons-flat-opt\/movies-and-tv.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -105,21 +115,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/icons-flat-opt\/noun_1447823_cc.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/icons-flat-opt\/noun_1447823_cc.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/icons-flat-opt\/photography.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons-flat-opt\/photography.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons-flat-opt\/placeholder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons-flat-opt\/placeholder.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -170,6 +180,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
