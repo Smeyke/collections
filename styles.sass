@@ -1,0 +1,195 @@
+// SOCIAL MEDIA COLORS
+
+$facebook-clr:    #3B5998
+$twitter-clr:     #55ACEE
+$googleplus-clr:  #DD4B39
+$youtube-clr:     #BB0000
+$linkedin-clr:    #007BB5
+$instagram-clr:   #125688
+$whatsapp-clr:    #4DC247
+$pinterest-clr:   #CB2027
+$vine-clr:        #00BF8F
+$snapchat-clr:    #FFFC00
+$quora-clr:       #A82400
+$dropbox-clr:     #007EE5
+$flickr-color:    #FF0084
+$tumblr-clr:      #32506D
+$vimeo-clr:       #AAD450
+$foursuqare-clr:  #0072B1
+$spotify-clr:     #1DB954
+$github-clr:      #000000
+$behance-clr:     #1769FF
+$rss-clr:         #FF6600
+
+// MY COLORS
+
+$bg-color-01:     #f4f4f4
+$bg-color-02:     #000000
+$smeyke-color:    #106EE8
+
+// FONT STUFF
+
+@font-face
+  font-family: 'AvertaBold'
+  src: url('fonts/averta-bold-webfont.eot')
+  /* IE9 Compat Modes
+  src: url('fonts/averta-bold-webfont.eot?#iefix') format("embedded-opentype"), url('fonts/averta-bold-webfont.woff2') format("woff2"), url('fonts/averta-bold-webfont.woff') format("woff"), url('fonts/averta-bold-webfont.ttf') format("truetype"), url('fonts/averta-bold-webfont.svg#svgFontName') format("svg")
+  /* Legacy iOS
+  font-weight: normal
+  font-style: normal
+
+
+@font-face
+  font-family: 'AvertaRegular'
+  src: url('fonts/averta-regular-webfont.eot')
+  /* IE9 Compat Modes
+  src: url('fonts/averta-regular-webfont.eot?#iefix') format("embedded-opentype"), url('fonts/averta-regular-webfont.woff2') format("woff2"), url('fonts/averta-regular-webfont.woff') format("woff"), url('fonts/averta-regular-webfont.ttf') format("truetype"), url('fonts/averta-regular-webfont.svg#svgFontName') format("svg")
+  /* Legacy iOS
+  font-weight: normal
+  font-style: normal
+
+// REGULAR STYLES
+
+body
+  background-color: $bg-color-01
+  font-family: 'AvertaRegular', 'Roboto', sans-serif
+  font-weight: 300
+  text-rendering: optimizeLegibility
+
+
+main
+  max-width: 1200px
+  margin: 0 auto
+
+h1, h2, h3, h4, h5, h6
+  font:
+    weight: bold
+    family: 'AvertaBold'
+  letter-spacing: 0.01em
+  word-spacing: 0.04em
+
+h1
+  font-size: 46px
+  text-transform: uppercase
+  letter-spacing: -0.01em
+
+h2
+  font-size: 32px
+  display: inline-block
+  margin-right: 30px
+
+
+
+
+p
+  font:
+    family: 'AvertaRegular'
+    size: 14px
+    weight: 300
+  margin: 4px 0px
+  letter-spacing: -0.04em
+  line-height: 1.4em
+  color: $bg-color-02
+  text-rendering: optimizeLegibility
+  font-variant-ligatures: common-ligatures
+
+a
+  text-decoration: underline
+  color: $smeyke-color
+  &:hover, &:active
+    text-decoration: underline
+    color: $bg-color-02
+  a:hover
+    text-decoration: underline
+    color: black
+
+.text
+  font:
+    family: 'AvertaBold'
+    size: 26px
+    weight: 700
+  color: $smeyke-color
+
+
+
+
+.row-1
+  margin: 2% 4%
+  width: 82%
+  background: #ffffff
+  display: inline-block
+  padding: 4%
+  box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+
+
+
+.row-2
+  margin: 2% 0% 2% 4%
+  width: 35%
+  background: #ffffff
+  display: inline-block
+  padding: 4%
+  box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
+  min-height: 300px
+
+  @media screen and (max-width: 640px)
+      margin: 2% 4%
+      width: 82%
+      padding: 4%
+
+
+.icon-big
+  max-width: 60px
+  max-height: 60px
+  margin: 4px
+  position: relative
+  top: 0
+  right: 0
+  min-height: 40px
+
+.sv-table
+  margin: 8px 0px
+  width: 90%
+  font:
+    size: 14px
+    family: "AvertaRegular"
+    weight: 300
+  letter-spacing: 0.02em
+
+
+.table-title
+  width: 100%
+  text-align: left
+  font-family: "AvertaBold"
+  padding: 12px 0px 0px
+
+.table-row-1
+  text-align: left
+  padding: 2px 0px
+  font-weight: 300
+
+.table-row-2
+  width: auto
+  text-align: left
+  padding: 2px 0px
+  font-weight: 300
+  position: absolute
+
+
+
+
+svg:hover
+  fill: white
+
+
+@media (max-width: 750px)
+  .item
+    width: calc(50% - 20px)
+
+@media (max-width: 450px)
+  .item
+    width: 100%
+
+
+footer
+  margin-bottom: 4% !important
