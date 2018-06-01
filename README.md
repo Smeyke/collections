@@ -10,6 +10,8 @@
 - [ ] create people section w/ icon
 - [ ] update software icon
 - [ ] create random/misc section w/ icon
+- [ ] updating all links with _blank
+- [ ] project desc
 
 ```
 
