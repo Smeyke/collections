@@ -12,6 +12,7 @@
 - [ ] create random/misc section w/ icon
 - [ ] updating all links with _blank
 - [ ] project desc
+- [ ] updating grid with css grid
 
 ```
 
