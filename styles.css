@@ -67,7 +67,12 @@ a {
   font-family: 'AvertaBold';
   font-size: 26px;
   font-weight: 700;
-  color: #106EE8; }
+  font-color: #106EE8; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  grid-gap: 2%; }
 
 .row-1 {
   margin: 2% 4%;
@@ -78,10 +83,8 @@ a {
   box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
 
 .row-2 {
-  margin: 2% 0% 2% 4%;
-  width: 35%;
+  margin-bottom: 4%;
   background: #ffffff;
-  display: inline-block;
   padding: 4%;
   box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
   min-height: 300px;
@@ -100,6 +103,10 @@ a {
   top: 40px;
   right: 40px;
   min-height: 40px; }
+  @media screen and (max-width: 640px) {
+    .icon-big {
+      max-width: 28px;
+      max-height: 28px; } }
 
 .sv-table {
   margin: 8px 0px;

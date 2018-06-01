@@ -61,6 +61,8 @@ main
   max-width: 1200px
   margin: 0 auto
 
+
+
 h1, h2, h3, h4, h5, h6
   font:
     weight: bold
@@ -108,9 +110,12 @@ a
     family: 'AvertaBold'
     size: 26px
     weight: 700
-  color: $smeyke-color
+    color: $smeyke-color
 
-
+.wrapper
+  display: grid
+  grid-template-columns: 35% 35%
+  grid-gap: 2%
 
 
 .row-1
@@ -124,10 +129,8 @@ a
 
 
 .row-2
-  margin: 2% 0% 2% 4%
-  width: 35%
+  margin-bottom: 4%
   background: #ffffff
-  display: inline-block
   padding: 4%
   box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1)
   min-height: 300px
@@ -147,6 +150,9 @@ a
   top: 40px
   right: 40px
   min-height: 40px
+  @media screen and (max-width: 640px)
+    max-width: 28px
+    max-height: 28px
 
 .sv-table
   margin: 8px 0px
