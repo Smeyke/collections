@@ -10,9 +10,9 @@
 - [ ] create people section w/ icon
 - [ ] update software icon
 - [ ] create random/misc section w/ icon
-- [ ] updating all links with _blank
+- [x] updating all links with _blank
 - [ ] project desc
-- [ ] updating grid with css grid
+- [x] updating grid with css grid
 
 ```
 
