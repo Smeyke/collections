@@ -12,7 +12,8 @@
 - [ ] create random/misc section w/ icon
 - [x] updating all links with _blank
 - [ ] project desc
-- [x] updating grid with css grid
+- [x] trying grid with css grid
+- [ ] make it work with regular grid because css grid is not that cool
 
 ```
 
