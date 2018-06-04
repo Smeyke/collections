@@ -91,11 +91,11 @@ a {
       width: 99%; } }
 
 .row-1 {
-  margin: 2%;
+  margin: 2% 4%;
   background: #ffffff;
   display: inline-block;
   padding: 2%;
-  width: 88%;
+  width: 89%;
   -webkit-box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 680px) {
@@ -103,9 +103,9 @@ a {
       width: 91%; } }
 
 .row-2 {
-  margin: 2% 0% 2% 4%;
+  margin: 2% 0% 2% 8%;
   background: #ffffff;
-  padding: 4%;
+  padding: 4% 5%;
   width: 88%;
   position: relative;
   display: inline-block;
@@ -113,7 +113,8 @@ a {
           box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 680px) {
     .row-2 {
-      margin: 2%; } }
+      margin: 2%;
+      width: 88%; } }
 
 .icon-big {
   max-width: 60px;
