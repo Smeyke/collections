@@ -33,12 +33,12 @@ h1, h2, h3, h4, h5, h6 {
   word-spacing: 0.04em; }
 
 h1 {
-  font-size: 46px;
+  font-size: 34px;
   text-transform: uppercase;
   letter-spacing: -0.01em; }
 
 h2 {
-  font-size: 32px;
+  font-size: 24px;
   display: inline-block;
   margin-right: 30px; }
   @media screen and (max-width: 980px) {
@@ -69,19 +69,21 @@ a {
 
 .text {
   font-family: 'AvertaBold';
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
-  font-color: #106EE8; }
+  color: #106EE8; }
   @media screen and (max-width: 680px) {
     .text {
       font-size: 20px; } }
 
 .wrapper-1 {
   float: left;
-  width: 47%; }
+  width: 47%;
+  margin-right: 4%; }
   @media screen and (max-width: 680px) {
     .wrapper-1 {
-      width: 99%; } }
+      width: 99%;
+      margin-right: 0%; } }
 
 .wrapper-2 {
   float: left;
@@ -95,7 +97,7 @@ a {
   background: #ffffff;
   display: inline-block;
   padding: 24px;
-  width: calc(100% - 72px);
+  width: calc(100% - 80px);
   -webkit-box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 680px) {
@@ -106,7 +108,7 @@ a {
   margin: 24px 16px;
   background: #ffffff;
   padding: 24px;
-  width: calc(100% - 72px);
+  width: calc(100% - 60px);
   position: relative;
   display: inline-block;
   -webkit-box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1);
