@@ -8,7 +8,7 @@ Basically it's a simple brain dump website for all the useful stuff I found some
 *tasks*
 - [x] create github repo
 - [x] update icons
-- [ ] write text
+- [x] write text
 - [ ] fill in all the links
 - [x] create people section w/ icon
 - [ ] update software icon
