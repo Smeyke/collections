@@ -254,8 +254,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 519892764,
-	"displayValue": "github repo",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Smeyke Collections",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-krieger",
 	"iconImageWasSetByUser": 0
 	},
@@ -2174,8 +2174,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": 1
 		},
 	"languageDefaultsSLIM": {
