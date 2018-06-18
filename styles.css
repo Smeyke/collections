@@ -49,10 +49,10 @@ h2 {
 
 p {
   font-family: 'AvertaRegular';
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 300;
   margin: 4px 0px;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   line-height: 1.4em;
   color: #000000;
   text-rendering: optimizeLegibility;
@@ -60,7 +60,7 @@ p {
           font-variant-ligatures: common-ligatures; }
 
 .row-2 p {
-  max-width: 420px; }
+  max-width: 440px; }
 
 a {
   text-decoration: underline;
@@ -107,7 +107,7 @@ a {
           box-shadow: 0px 70px 40px -50px rgba(16, 110, 232, 0.2), 0px 3px 20px rgba(0, 0, 0, 0.1); }
   @media screen and (max-width: 680px) {
     .row-1 {
-      width: 91%; } }
+      width: 86%; } }
 
 .row-2 {
   margin: 24px 16px;
