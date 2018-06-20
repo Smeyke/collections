@@ -102,6 +102,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/icons-flat-opt\/misc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons-flat-opt\/misc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons-flat-opt\/movies-and-tv.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -256,8 +266,8 @@
 	"creationDate": 519892764,
 	"displayValue": "Smeyke Collections",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-krieger",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "meme-ron",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
