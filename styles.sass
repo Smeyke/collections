@@ -198,6 +198,9 @@ a
   font-weight: 300
   position: absolute
   right: 24px
+  &:a
+  font-size: 12px
+  line-height: 22px
 
 @media (max-width: 750px)
   .item
@@ -209,11 +212,11 @@ a
 
 .premium
   &::before
-    content: "*"
-    font-size: 18px
-    color: lighten($smeyke-color, 15%)
-    margin-left: -9px
-    padding-right: 1px
+    content: "✱"
+    font-size: 12px
+    color: lighten($smeyke-color, 25%)
+    margin-left: -14px
+    padding-right: 3px
 
 
 
